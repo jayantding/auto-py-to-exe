@@ -27,6 +27,8 @@
 | [Slovenščina](./README-Slovenian.md)
 | [српски](./README-Serbian_Cyrillic.md)
 | **srpski**
+| [Русский](./README-Russian.md)
+| [Français](./README-French.md)
 
 ## Demo
 
@@ -49,13 +51,13 @@ _Da biste imali interfejs kao na slikama, potreban Vam je Chrome. Ako Chrome nij
 Ovaj projekat možete instalirati pomoću PyPI-a:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 Da biste ga pokrenuli, izvršite sledeću komandu u terminalu:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > Ako imate instaliranu više od jedne Python verzije, možete koristiti `python -m auto_py_to_exe` umesto `auto-py-to-exe`.
@@ -63,15 +65,15 @@ $ auto-py-to-exe
 #### Instalacija preko [GitHub](https://github.com/brentvollebregt/auto-py-to-exe)-a
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 Da biste ga pokrenuli, izvršite sledeću komandu u terminalu:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### Lokalno pokretanje preko [Github](https://github.com/brentvollebregt/auto-py-to-exe)-a (bez instalacije)
@@ -149,9 +151,9 @@ Nakon što je 9. avgusta 2020. izašao [PyInstaller v4.0](https://github.com/pyi
 Testovi se nalaze u [tests/](../../tests/) direktorijumu i pokreću se korišćenjem komande pytest:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## Snimci ekrana

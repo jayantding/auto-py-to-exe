@@ -27,6 +27,8 @@
 | [Slovenščina](./README-Slovenian.md)
 | **српски**
 | [srpski](./README-Serbian_Latin.md)
+| [Русский](./README-Russian.md)
+| [Français](./README-French.md)
 
 ## Демо
 
@@ -49,13 +51,13 @@ _Да бисте имали интерфејс као на сликама, по�
 Овај пројекат можете инсталирати помоћу PyPI-а:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 Да бисте га покренули, извршите следећу команду у терминалу:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > Ако имате инсталирану више од једне Python верзије, можете користити `python -m auto_py_to_exe` уместо `auto-py-to-exe`.
@@ -63,15 +65,15 @@ $ auto-py-to-exe
 #### Инсталација преко [GitHub](https://github.com/brentvollebregt/auto-py-to-exe)-а
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 Да бисте га покренули, извршите следећу команду у терминалу:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### Локално покретање преко [Github](https://github.com/brentvollebregt/auto-py-to-exe)-а (без инсталације)
@@ -149,9 +151,9 @@ _Једноставно._
 Тестови се налазе у [tests/](../../tests/) директоријуму и покрећу се коришћењем команде pytest:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## Снимци екрана

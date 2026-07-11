@@ -27,6 +27,8 @@
 | [Slovenščina](./README-Slovenian.md)
 | [српски](./README-Serbian_Cyrillic.md)
 | [srpski](./README-Serbian_Latin.md)
+| [Русский](./README-Russian.md)
+| [Français](./README-French.md)
 
 ## 데모
 
@@ -51,13 +53,13 @@ _이미지와 같이 인터페이스를 표시하려면, Chrome이 필요합니�
 PyPI를 사용해 이 프로젝트를 설치할 수 있습니다:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 실행되었다면, 다음 명령어를 터미널에 입력하세요:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > 만약 두 개 이상의 Python 버전이 설치되어 있다면 `auto-py-to-exe` 대신에 `python -m auto_py_to_exe`를 사용할 수도 있습니다.
@@ -65,15 +67,15 @@ $ auto-py-to-exe
 #### [GitHub](https://github.com/brentvollebregt/auto-py-to-exe)를 이용한 설치 방법
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 실행되었다면, 다음 명령어를 터미널에 입력하세요:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### [Github](https://github.com/brentvollebregt/auto-py-to-exe)를 이용한 로컬 사용 방법 (설치 X)
@@ -102,15 +104,15 @@ _참 쉽죠?_
 
 사용법: `auto-py-to-exe [-db] [-c [CONFIG]] [-o [PATH]] [filename]`
 
-| 매개변수                                                 | 형식          | 설명                                                                                                                                    |
-| -------------------------------------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
-| filename                                                 | 위치적/선택적 | UI의 "스크립트 위치"를 미리 채웁니다(pre-fill).                                                                                         |
-| -db, --default-browser                                   | 선택적        | UI를 Chrome 이 아닌 기본 브라우저(Chrome이 기본값일 수 있음)로 엽니다. 앱은 Chrome 설치 여부를 탐색하지 않습니다.                       |
-| -nu, --no-ui                                             | 선택적        | 추가 브라우저 창을 열지 않고, 앱에 접근할 수 있는 localhost 주소값만 출력됩니다.                                                        |
-| -c [구성], --config [구성]                               | 선택적        | UI를 미리 채울 수 있는 구성 파일(json)을 제공합니다. 설정 탭에서 생성됩니다.                                                            |
-| -o [경로], --output-dir [경로]                           | 선택적        | 출력 디렉토리 기본값을 지정합니다. 이 값은 UI에서 직접 바꿀 수도 있습니다.                                                              |
-| -bdo [폴더 경로], --build-directory-override [폴더 경로] | 선택적        | 기본값 빌드 디렉토리를 덮어씌웁니다. 안티바이러스(백신)에 의해 파일이 지워지는 걸 방지할 때 유용합니다.                                 |
-| -lang [언어 코드], --language [언어 코드]                | 선택적        | UI에 기본값으로 설정될 언어를 지정합니다. 언어 코드는 README.md의 [Translations](./README.md#translations) 문단에서 확인할 수 있습니다. |
+| 매개변수                                                 | 형식          | 설명                                                                                                                                        |
+| -------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| filename                                                 | 위치적/선택적 | UI의 "스크립트 위치"를 미리 채웁니다(pre-fill).                                                                                             |
+| -db, --default-browser                                   | 선택적        | UI를 Chrome 이 아닌 기본 브라우저(Chrome이 기본값일 수 있음)로 엽니다. 앱은 Chrome 설치 여부를 탐색하지 않습니다.                           |
+| -nu, --no-ui                                             | 선택적        | 추가 브라우저 창을 열지 않고, 앱에 접근할 수 있는 localhost 주소값만 출력됩니다.                                                            |
+| -c [구성], --config [구성]                               | 선택적        | UI를 미리 채울 수 있는 구성 파일(json)을 제공합니다. 설정 탭에서 생성됩니다.                                                                |
+| -o [경로], --output-dir [경로]                           | 선택적        | 출력 디렉토리 기본값을 지정합니다. 이 값은 UI에서 직접 바꿀 수도 있습니다.                                                                  |
+| -bdo [폴더 경로], --build-directory-override [폴더 경로] | 선택적        | 기본값 빌드 디렉토리를 덮어씌웁니다. 안티바이러스(백신)에 의해 파일이 지워지는 걸 방지할 때 유용합니다.                                     |
+| -lang [언어 코드], --language [언어 코드]                | 선택적        | UI에 기본값으로 설정될 언어를 지정합니다. 언어 코드는 README.md의 [Translations](../../README.md#translations) 문단에서 확인할 수 있습니다. |
 
 > 만약 로컬에서 이 패키지를 실행한다면, `auto-py-to-exe` 대신에 `python -m auto_py_to_exe`를 실행해야 합니다.
 
@@ -148,9 +150,9 @@ UI에 같은 데이터를 계속해서 집어넣는 대신에, "설정" 탭에 �
 테스트는 `tests/` 폴더에 있으며 pytest 모듈을 통해 실행됩니다:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## 스크린샷

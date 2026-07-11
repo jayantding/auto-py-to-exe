@@ -27,6 +27,8 @@
 | [Slovenščina](./README-Slovenian.md)
 | [српски](./README-Serbian_Cyrillic.md)
 | [srpski](./README-Serbian_Latin.md)
+| [Русский](./README-Russian.md)
+| [Français](./README-French.md)
 
 ## דמו
 
@@ -49,13 +51,13 @@ _כדי שהממשק יוצג בתמונות, תזדקק לכרום. אם כרו
 ניתן להתקין את הפרויקט באמצעות PyPI:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 לאחר מכן כדי להפעיל אותו, בצע את הפעולות הבאות בטרמינל:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > אם יש לך יותר מגרסא אחת של פייתון מותקנת, יש לעשות שימוש ב `python -m auto_py_to_exe` במקום ב `auto-py-to-exe`.
@@ -63,15 +65,15 @@ $ auto-py-to-exe
 ### התקנה באמצעות [GitHub](https://github.com/brentvollebregt/auto-py-to-exe)
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 לאחר מכן כדי להפעיל אותו, בצע את הפעולות הבאות בטרמינל:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### הרצה מקומית באמצעות [Github](https://github.com/brentvollebregt/auto-py-to-exe) (ללא התקנה)
@@ -119,13 +121,13 @@ _קללללל._
 
 ## תורם
 
-עיין ב-[CONTRIBUTING.md](./CONTRIBUTING.md) כדי לראות הנחיות כיצד לתרום. הקובץ מתאר מה לעשות אם יש לך תכונה חדשה, שינוי, עדכון תרגום או שמצאת בעיה עם auto-py-to-exe.
+עיין ב-[CONTRIBUTING.md](../../CONTRIBUTING.md) כדי לראות הנחיות כיצד לתרום. הקובץ מתאר מה לעשות אם יש לך תכונה חדשה, שינוי, עדכון תרגום או שמצאת בעיה עם auto-py-to-exe.
 
 ## בעיות בשימוש בכלי
 
 אם אתה נתקל בבעיות עם קובץ ההפעלה הארוז או בשימוש בכלי זה באופן כללי, אני ממליץ לך לקרוא את [הפוסט בבלוג שלי על בעיות נפוצות בעת שימוש ב-auto-py-to-exe](https://nitratine.net/blog/post /issues-when-using-auto-py-to-exe/?utm_source=auto_py_to_exe&utm_medium=readme_link&utm_campaign=auto_py_to_exe_help). פוסט זה מכסה דברים שכדאי לדעת על אריזת סקריפטים של Python ותיקונים לדברים שבדרך כלל משתבשים.
 
-אם אתה סבור שמצאת בעיה בכלי זה, עקוב אחר הסעיף ["דיווח על בעיה" ב-CONTRIBUTING.md](./CONTRIBUTING.md#reporting-an-issue).
+אם אתה סבור שמצאת בעיה בכלי זה, עקוב אחר הסעיף ["דיווח על בעיה" ב-CONTRIBUTING.md](../../CONTRIBUTING.md#reporting-an-issue).
 
 ## תמיכה של Python 2.7
 
@@ -137,9 +139,9 @@ _קללללל._
 בדיקות ממוקמות בתיקיה `tests/` והקצתן נעשית על ידי pytest:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## צילומי מסך

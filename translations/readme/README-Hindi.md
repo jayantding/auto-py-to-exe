@@ -27,6 +27,8 @@
 | [Slovenščina](./README-Slovenian.md)
 | [српски](./README-Serbian_Cyrillic.md)
 | [srpski](./README-Serbian_Latin.md)
+| [Русский](./README-Russian.md)
+| [Français](./README-French.md)
 
 ## डेमो
 
@@ -49,13 +51,13 @@ _इसे चित्रों में प्रदर्शित करन
 आप इस परियोजना को PyPI का उपयोग करके स्थापित कर सकते हैं:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 फिर इसे चलाने के लिए, टर्मिनल में निम्नलिखित का अभ्यास करें:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > यदि आपके पास एक से अधिक पाइथन संस्करण स्थापित हैं, तो आप `python -m auto_py_to_exe` का उपयोग `auto-py-to-exe` के बजाय कर सकते हैं।
@@ -63,15 +65,15 @@ $ auto-py-to-exe
 #### [GitHub](https://github.com/brentvollebregt/auto-py-to-exe) के माध्यम से स्थापना
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 फिर इसे चलाने के लिए, टर्मिनल में निम्नलिखित का अभ्यास करें:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### [GitHub](https://github.com/brentvollebregt/auto-py-to-exe) के माध्यम से स्थानिक रूप से चलाना (स्थापना नहीं)
@@ -119,13 +121,13 @@ _आसान।_
 
 ## योगदान
 
-योगदान कैसे करें, इसके लिए [CONTRIBUTING.md](./CONTRIBUTING.md) देखें। यह बताता है कि आपके पास नई सुविधा, परिवर्तन, अनुवाद अपडेट या auto-py-to-exe के साथ समस्या मिलने पर क्या करना चाहिए।
+योगदान कैसे करें, इसके लिए [CONTRIBUTING.md](../../CONTRIBUTING.md) देखें। यह बताता है कि आपके पास नई सुविधा, परिवर्तन, अनुवाद अपडेट या auto-py-to-exe के साथ समस्या मिलने पर क्या करना चाहिए।
 
 ## उपकरण का उपयोग में समस्याएँ
 
 यदि आप पैकेजड एक्सेक्यूटेबल के साथ समस्या हैं या सामान्य रूप से इस उपकरण का उपयोग करते समय कोई समस्या है, तो मैं सिफारिश करता हूं कि आप [auto-py-to-exe का उपयोग करते समय सामान्य समस्याओं पर मेरे ब्लॉग पोस्ट को पढ़ें](https://nitratine.net/blog/post/issues-when-using-auto-py-to-exe/?utm_source=auto_py_to_exe&utm_medium=readme_link&utm_campaign=auto_py_to_exe_help)। इस पोस्ट में आपको पायथन स्क्रिप्ट को पैकेज करने के बारे में जानकारी मिलेगी और जो चीजें आमतौर पर गलत हो जाती हैं के लिए ठीक कराव दिया जाता है।
 
-यदि आपको लगता है कि आपने इस उपकरण के साथ कोई समस्या पाई है, तो कृपया [CONTRIBUTING.md में "समस्या की रिपोर्ट करना" अनुभाग का पालन करें](./CONTRIBUTING.md#reporting-an-issue)।
+यदि आपको लगता है कि आपने इस उपकरण के साथ कोई समस्या पाई है, तो कृपया [CONTRIBUTING.md में "समस्या की रिपोर्ट करना" अनुभाग का पालन करें](../../CONTRIBUTING.md#reporting-an-issue)।
 
 ## Python 2.7 समर्थन
 
@@ -136,9 +138,9 @@ _आसान।_
 परीक्षण `tests/` में स्थित हैं और pytest का उपयोग करके चलाए जाते हैं:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## स्क्रीनशॉट

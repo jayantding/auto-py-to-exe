@@ -27,6 +27,8 @@
 | [Slovenščina](./README-Slovenian.md)
 | [српски](./README-Serbian_Cyrillic.md)
 | [srpski](./README-Serbian_Latin.md)
+| [Русский](./README-Russian.md)
+| [Français](./README-French.md)
 
 ## Паказ
 
@@ -49,13 +51,13 @@ _Каб мець такі ж самы інтэрфейс, які адлюстр�
 Вы можаце ўсталяваць гэты праект, карыстаючыся PyPI:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 Каб запусціць яго, выканайце ў тэрмінале наступную каманду:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > Калі вы маеце больш за адну ўсталяваную версію Python, можаце скарыстацца `python -m auto_py_to_exe` замест `auto-py-to-exe`.
@@ -63,15 +65,15 @@ $ auto-py-to-exe
 ### Усталяванне праз [GitHub](https://github.com/brentvollebregt/auto-py-to-exe)
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 Каб запусціць яго, выканайце ў тэрмінале наступную каманду:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### Лакальнае выкананне праз [Github](https://github.com/brentvollebregt/auto-py-to-exe) (без усталявання).
@@ -119,7 +121,7 @@ _Лёгка._
 
 ## Унёсак
 
-Азнаёмцеся з [CONTRIBUTING.md](./CONTRIBUTING.md), каб здаведацца пра рэкамендацыі аб тым, як зрабіць свой унёсак у праект. Тут апісана, што рабіць, калі ў вас ёсць новая функцыя, змяненне, абнаўленне перакладу, альбо вы выявілі праблему з аўтаматычным пераўтварэннем у фармат `.exe`.
+Азнаёмцеся з [CONTRIBUTING.md](../../CONTRIBUTING.md), каб здаведацца пра рэкамендацыі аб тым, як зрабіць свой унёсак у праект. Тут апісана, што рабіць, калі ў вас ёсць новая функцыя, змяненне, абнаўленне перакладу, альбо вы выявілі праблему з аўтаматычным пераўтварэннем у фармат `.exe`.
 
 ## Праблемы пры выкарыстанні дадаткам
 
@@ -134,9 +136,9 @@ _Лёгка._
 Тэсты знаходзяцца ў раздзеле `tests/` і запускаюцца з дапамогаю pytest:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## Здымкі экрану

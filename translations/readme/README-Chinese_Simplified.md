@@ -27,6 +27,8 @@
 | [Slovenščina](./README-Slovenian.md)
 | [српски](./README-Serbian_Cyrillic.md)
 | [srpski](./README-Serbian_Latin.md)
+| [Русский](./README-Russian.md)
+| [Français](./README-French.md)
 
 ## 演示
 
@@ -49,13 +51,13 @@ _要使用图像中显示的界面，您需要使用 Chrome。如果未安装 Ch
 您可以使用 PyPI 安装此项目：
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 然后运行它，在终端中执行以下命令：
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 > 如果您安装了一个以上的 Python 版本，您可以使用 `python -m auto_py_to_exe` 来代替 `auto-py-to-exe`。
@@ -63,15 +65,15 @@ $ auto-py-to-exe
 ### 通过 [GitHub](https://github.com/brentvollebregt/auto-py-to-exe) 安装
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 然后运行它，在终端中执行以下命令：
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### 在本地通过 [Github](https://github.com/brentvollebregt/auto-py-to-exe) 运行（无需安装）
@@ -143,12 +145,12 @@ _简单！_
 
 ## 测试
 
-测试文件位于 `tests/` 中，它们被 pytest 运行:
+测试文件位于 [tests/](../../tests/) 中，它们被 pytest 运行:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## 屏幕截图

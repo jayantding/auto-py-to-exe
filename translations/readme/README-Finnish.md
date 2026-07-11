@@ -27,6 +27,8 @@
 | [Slovenščina](./README-Slovenian.md)
 | [српски](./README-Serbian_Cyrillic.md)
 | [srpski](./README-Serbian_Latin.md)
+| [Русский](./README-Russian.md)
+| [Français](./README-French.md)
 
 ## Demo
 
@@ -51,27 +53,27 @@ _Jos haluat nähdä käyttöliittymän, joka näkyy kuvissa, tarvitset Chromen. 
 Voit asentaa tämän ohjelman PyPI:n kautta:
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 Suorittaaksesi käytä tätä komentoa komentorivillä:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 ### [GitHubin](https://github.com/brentvollebregt/auto-py-to-exe) kautta asentaminen
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 Suorittaaksesi käytä tätä komentoa komentorivillä:
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### [Githubin](https://github.com/brentvollebregt/auto-py-to-exe) kautta paikallisesti suorittaminen (ei asennusta)
@@ -139,9 +141,9 @@ Jos uskot, että olet löytänyt ongelman työkalun kanssa, ole hyvä ja [luo "i
 Testit sijaitsevat kansiossa `tests/` ja niitä suoritetaan pytestillä:
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## Kuvakaappaukset

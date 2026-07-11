@@ -27,6 +27,8 @@
 | [Slovenščina](./README-Slovenian.md)
 | [српски](./README-Serbian_Cyrillic.md)
 | [srpski](./README-Serbian_Latin.md)
+| [Русский](./README-Russian.md)
+| [Français](./README-French.md)
 
 ## پیش نمایش
 
@@ -52,13 +54,13 @@ _برای نمایش رابط کاربری در تصاویر، به کروم ن�
 شما میتوانید این پروژه را نصب و استفاده کنید با pypi :
 
 ```
-$ pip install auto-py-to-exe
+pip install auto-py-to-exe
 ```
 
 سپس برای اجرای آن موارد زیر را در ترمینال اجرا کنید :
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 اگر بیش از یک نسخه از پایتون را نصب کردید :
@@ -68,15 +70,15 @@ $ auto-py-to-exe
 ### [GitHub](https://github.com/brentvollebregt/auto-py-to-exe) نصب با
 
 ```
-$ git clone https://github.com/brentvollebregt/auto-py-to-exe.git
-$ cd auto-py-to-exe
-$ python setup.py install
+git clone https://github.com/brentvollebregt/auto-py-to-exe.git
+cd auto-py-to-exe
+python setup.py install
 ```
 
 سپس برای اجرای آن، موارد زیر را در ترمینال اجرا کنید :
 
 ```
-$ auto-py-to-exe
+auto-py-to-exe
 ```
 
 #### [Github](https://github.com/brentvollebregt/auto-py-to-exe) اجرای لوکال (بدون نصب)
@@ -146,9 +148,9 @@ _خیلی راحت :)_
 تست ها در `test/` قرار دارند و با استفاده از pytest اجرا میشوند :
 
 ```
-$ pip install pytest
-$ pip install -e .
-$ pytest
+pip install pytest
+pip install -e .
+pytest
 ```
 
 ## اسکرین شات ها
